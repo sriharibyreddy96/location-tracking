@@ -1,0 +1,55 @@
+# Node.js
+/node_modules
+/package-lock.json
+/yarn.lock
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Build output (for production builds)
+build/
+
+# MongoDB Data (if you use a local MongoDB instance)
+data/
+
+# npm global modules
+npm-global/
+
+# Debugging or crash logs
+*.tgz
+*.swp
+
+# Test coverage output
+coverage/
+
+# Docker-related files
+docker-compose.override.yml
+Dockerfile
+.docker/
+
+# Jest or other test runners
+jest-coverage/
+
+# TypeScript (if applicable)
+*.tsbuildinfo
+
+# Next.js (if using Next.js for full stack)
+.next/
+
+# Other files you may want to ignore (adjust to your needs)
+*.bak
+*.tmp
